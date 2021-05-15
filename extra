@@ -2,14 +2,20 @@ https://code.visualstudio.com/download
 https://github.com/
 https://nodejs.org/en/
 
-HTML
-CSS
-Bootstrap
-JavaScript
-Jquery
+HTML > Raw Structure
+CSS > Design (look)
+Bootstrap > Responsive Design
+JavaScript > logic
+Jquery > Ajax Animation
 
 
+Tags
 
+Block Level > Element that start from new line
+Inline  > start from same line
+
+href=> hyper refernce
+src => source
 
 variables
 concat
