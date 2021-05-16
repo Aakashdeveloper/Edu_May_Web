@@ -20,6 +20,14 @@ src => source
 
 SEO > Search engine Optimization
 
+inline  > between tags
+style Tags > seperate tag in head
+stylesheet > seperate file of css
+
+tagname
+id
+classname
+
 variables
 concat
 if else

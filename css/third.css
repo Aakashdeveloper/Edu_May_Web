@@ -1,0 +1,35 @@
+h1{
+    color:teal;
+    text-align: center;
+}
+#first{
+    color:turquoise
+}
+#second{
+    color:lawngreen
+}
+.paraodd{
+    color:orange
+}
+.paraeven{
+    color:lightseagreen
+}
+.logoclass{
+    height:200px;
+    width:15%;
+    float: left;
+    margin-left:5%;
+    border:10px solid
+}
+#logoone{
+    background-image: url('images/kfc.png');
+}
+#logotwo{
+    background-image: url('images/blue.png');
+}
+#logothree{
+    background-image: url('images/dominos.png');
+}
+#logofour{
+    background-image: url('images/subway.png');
+}
