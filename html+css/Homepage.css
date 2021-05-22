@@ -1,0 +1,128 @@
+#copywrite{
+    text-align:center;
+    font-size:22px;
+    color:#187557
+}
+
+#main{
+
+    margin-left:8%;
+    margin-right:8%;
+}
+
+.ImageContainer{
+    background: url('bg.jpg');
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border:2px groove orange
+}
+
+#social{
+    text-align:right
+}
+
+.slogo{
+    height:50px;
+    width:50px
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    height:120px;
+    width:120px;
+    background-color:white;
+    border-radius:50%;
+    margin: auto;
+    margin-top:80px;
+    margin-bottom: 40px;
+    font-size:90px;
+    text-align: center;
+    color:rgb(53, 174, 223);
+    font-weight: bold;
+}
+
+#heading{
+    text-align:center;
+    color:maroon;
+    font-size:35px
+}
+
+.dropdown{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px
+}
+
+.dropdown > select{
+    height:50px;
+    width:250px;
+    border:none;
+    font-size:15px;
+    border-radius: 20px;
+}
+
+.QuickSearchContainer{
+    margin-left:7%;
+    margin-right:7%;
+    margin-top:3%;
+}
+
+#QuickHeading{
+    display: block;
+    color:rgb(26,26,98);
+    font-size:30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#QuickSearchSubHeading{
+    color:gray;
+    font-size:18px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+}
+
+.tileContainer{
+    height:180px;
+    width:40%;
+    margin-top:50px;
+    margin-bottom: 15px;
+
+    display: inline-block;
+    margin-left:5%;
+    box-shadow:15px 15px 25px black
+}
+
+.tileComponent1{
+    width:48%;
+    background:red;
+    float: left;
+}
+.tileComponent2{
+    width:48%;
+    float: left;
+}
+
+.tileComponent1> img{
+    height:180px;
+    width:100%
+}
+
+.componentHeading{
+    margin-left:40px;
+    margin-top:40px;
+    color:navy;
+    font-size:20px;
+    font-weight: bold;
+
+}
+.componentSubHeading{
+    margin-left:40px;
+    color:gray;
+    font-size:18px;
+}
