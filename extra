@@ -28,6 +28,13 @@ tagname
 id
 classname
 
+xs 768px
+sm above 768px
+md 992px
+lg 1200px
+
+12/6 = 2
+
 variables
 concat
 if else
@@ -48,3 +55,8 @@ promise
 async await
 Geolocation
 Dynamic Html 
+
+https://getbootstrap.com/docs/3.3/components/
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  

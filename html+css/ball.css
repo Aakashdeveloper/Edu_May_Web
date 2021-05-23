@@ -1,0 +1,16 @@
+#animate{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color:purple;
+    animation:ball 10s infinite;
+    position: relative;
+}
+
+@keyframes ball{
+    0% {top:0%; left:0%}
+    25% {top:30%; left:10%}
+    50% {top:0%; left:30%}
+    75% {top:30%; left:60%}
+    100% {top:0%; left:90%}
+}

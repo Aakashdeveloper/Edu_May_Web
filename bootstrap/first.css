@@ -1,0 +1,37 @@
+#one{
+    background-color: red;
+    height: 200px;
+}
+#two{
+    background-color: yellow;
+    height: 200px;
+}
+#three{
+    background-color: purple;
+    height: 200px;
+}
+#four{
+    background-color: hotpink;
+    height: 200px;
+}
+#five{
+    background-color: teal;
+    height: 200px;
+}
+#six{
+    background-color: turquoise;
+    height: 200px;
+}
+
+.btn-primary{
+    background:indigo !important
+}
+
+.glyphicon-trash{
+    font-size:30px;
+    color:red
+}
+
+.navbar-inverse{
+  
+}
