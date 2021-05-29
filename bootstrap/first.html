@@ -11,13 +11,33 @@
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#testnav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <a class="navbar-brand" href="#">Developer Funnel</a>
                     </div>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="testnav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-user"></span> SignUp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-log-in"></span> Login
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </nav>
             <div class="jumbotron">
@@ -29,6 +49,97 @@
                     Lorem Ipsum छपाई और अक्षर योजन उद्योग का एक साधारण डमी पाठ है. Lorem Ipsum सन १५०० के बाद से अभी तक इस उद्योग का मानक डमी पाठ मन गया, जब एक अज्ञात मुद्रक ने नमूना लेकर एक नमूना किताब बनाई. यह न केवल पाँच सदियों से जीवित रहा बल्कि इसने इलेक्ट्रॉनिक मीडिया में छलांग लगाने के बाद भी मूलतः अपरिवर्तित रहा.
                 </p>
             </div>
+            <br/>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%">
+                    <span>80% Complete</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" style="width:70%">
+                    <span>70% Complete</span>
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" style="width:60%">
+                    <span>60% Complete</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" style="width:50%">
+                    <span>50% Complete</span>
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped"  style="width:50%">
+                    <span>50% Complete</span>
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:70%">
+                    <span>50% Complete</span>
+                </div>
+            </div>
+
+            <!----Carousel-->
+            <div id="eduCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#eduCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#eduCarousel" data-slide-to="1"></li>
+                    <li data-target="#eduCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://i.ibb.co/pv8Kf4m/roseate.jpg"/>
+                    </div>
+                    <div class="item">
+                        <img src="foodWallpaper.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="manali.jpg"/>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#eduCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#eduCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!----Carousel-->
+
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#eduModal">
+                Open Model
+            </button>
+
+            <div id="eduModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h4 class="modal-title">Car Details</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Some Text Here</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">
+                               Close
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <br/>
             <button>Click Me</button>
             <button class="btn">Click Me</button>
             <button class="btn btn-primary">Click Me</button>
@@ -64,32 +175,75 @@
                 <div id="five" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
                 <div id="six" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
             </div>
-            <table class="table table-hover table-bordered">
-                <thead>
-                    <tr>
-                        <th>Roll No</th>
-                        <th>Name</th>
-                        <th>Result</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>John</td>
-                        <td>Fail</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Sarah</td>
-                        <td>Pass</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>John</td>
-                        <td>Fail</td>
-                    </tr>
-                </tbody>
-            </table>
+            <br/>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2>My Page</h2>
+                </div>
+                <div class="panel-body">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h2>My Page</h2>
+                </div>
+                <div class="panel-body">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h2>My Page</h2>
+                </div>
+                <div class="panel-body">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    Students
+                </div>
+                <div class="panel-body">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Roll No</th>
+                                <th>Name</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>John</td>
+                                <td>Fail</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Sarah</td>
+                                <td>Pass</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>John</td>
+                                <td>Fail</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
         </div>
     </body>
 </html>

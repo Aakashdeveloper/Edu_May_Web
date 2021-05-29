@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Employee Form</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                    <div class="form-group">
+                        <label for="fname">Sno</label>
+                        <input value="23432ddcewg34" name="fname" id="fname"
+                        class="form-control" readonly/>
+                    </div>
+                        <div class="form-group">
+                            <label for="fname">FirstName</label>
+                            <input placeholder="firstname" name="fname" id="fname"
+                            class="form-control" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">LastName</label>
+                            <input placeholder="lasttname" id="lname" name="lname"
+                            class="form-control"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="email">Email</label>
+                                <input placeholder="email" value="a@a" name="email" id="email"
+                                class="form-control" type="email"/>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="password">Password</label>
+                                <input placeholder="password" name="password" id="password"
+                            class="form-control" type="password"/>
+                            </div>
+                        </div>
+                        <input type="text" minlength="5" placeholder="min"/>
+                        <input type="text" maxlength="5" placeholder="max"/>
+                        <input type="number" maxlength="10" placeholder="phone"/>
+                        <input type="date"/>
+                        <input type="file"/>
+                        <br/>
+                        <div>
+                            <label>Gender</label>
+                            <div>
+                                <label class="radio-inline">
+                                    <input type="radio" name="gender"/> Female
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="gender"/> Male
+                                </label>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="checkout">
+                            <label>
+                                <input type="checkbox" value="JavaScript"/> JavaScript
+                            </label>
+                        </div>
+                        <div class="checkout">
+                            <label>
+                                <input type="checkbox" value="Node"/> Node
+                            </label>
+                        </div>
+                        <div class="checkout">
+                            <label>
+                                <input type="checkbox" value="React"/> React
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">Select City</label>
+                            <select class="form-control" id="city">
+                                <option value="delhi">Delhi</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="amsterdam">Amsterdam</option>
+                            </select>
+                        </div>
+
+                        <input list="cars" name="car" id="car"/>
+                        <datalist id="cars">
+                            <option value="audi"></option>
+                            <option value="bmw"></option>
+                            <option value="merc"></option>
+                            <option value="skoda"></option>
+                            <option value="kia"></option>
+                        </datalist>
+                        <div>
+                            <button class="btn btn-success" type="submit">
+                                Submit
+                            </button>
+                            <button class="btn btn-danger" type="reset">
+                                Reset
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
