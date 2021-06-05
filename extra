@@ -37,26 +37,32 @@ lg 1200px
 
 variables
 concat
-string literal
+string literal 
 if else
 ternary 
 function
-/////////////
 DOM
 Calc 
-Event
-dark/light
 regex 
 Form Validation
-github 
-loop 
+Event
+/////////////
+JSON
+dark/light
 array
+
+loop 
+github 
 hoisting
 clouser
 promise
 async await
 Geolocation
 Dynamic Html 
+
+Jquery
+> Animation
+> ajax
 
 https://getbootstrap.com/docs/3.3/components/
 

@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="form.css" rel="stylesheet"/>
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Employee Form</h1>
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Edureka</h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fname">FirstName</label>
+                            <input placeholder="firstname" name="fname" id="fname"
+                            class="form-control" onblur="validateFname()"/>
+                            <p id="fout"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input placeholder="email" name="email" id="email"
+                            class="form-control" oninput="validateEmail()"/>
+                            <p id="eout"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password</label>
+                            <input placeholder="password" name="password" id="password"
+                            class="form-control" oninput="validatePassword()"/>
+                            <p id="pout"></p>
+                            <div id="ppout"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cpassword">Confirm Password</label>
+                            <input placeholder="password" name="cpassword" id="cpassword"
+                            class="form-control" oninput="validateCPassword()"/>
+                            <p id="cpout"></p>
+                        </div>
+                        <span id="cityout">
+                            
+                        </span>
+                        <div class="form-group">
+                            <label for="city">SELECT CITY</label>
+                            <select class="form-control" id="city" onChange="getCity()">
+                                <option value="delhi">Delhi</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="chandigarh">Chandigarh</option>
+                            </select>
+                        </div>
+                        <button onclick="validateForm()">Submit</button>
+
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+p{
+    color:red
+}
+
+#ppout{
+    height: 10px;
+    width: 100%;
+    visibility: hidden;
+}
+
+#cityout{
+    color:green
+}
