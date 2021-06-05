@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: white;
+                color:black
+            }
+            .mydark{
+                background-color: black;
+                color:white
+            }
+        </style>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+
+                mybody.classList.toggle('mydark');
+                
+                var headingText = document.getElementsByTagName('h2')[0];
+                if(headingText.innerText === "Edureka Light Mode"){
+                    headingText.innerText = "Edureka Dark Mode"
+                }else{
+                    headingText.innerText = "Edureka Light Mode"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Edureka Light Mode</h2>
+        <p> We are working on light and dark mode</p>
+        <button onclick="changeMode()">Change Mode</button>
+    </body>
+</html>
