@@ -2,6 +2,7 @@
     <head>
         <link href="Homepage.css" rel="stylesheet"/>
         <title>Hotel Booking</title>
+        <script src="Homepage.js"></script>
     </head>
     <body>
         <header>
@@ -28,15 +29,9 @@
                     Find Bèst Restaurants, Hotêls, Stäy
                 </div>
                 <div class="dropdown">
-                    <select id="city">
-                        <option>Delhi</option>
-                        <option>Mumbai</option>
-                        <option>Pune</option>
+                    <select id="citydrop" onChange="getHotel()">
                     </select>
-                    <select id="hotels">
-                        <option>Hotel1</option>
-                        <option>Hotel2</option>
-                        <option>Hotel3</option>
+                    <select id="hotels"> 
                     </select>
                 </div>
                 
@@ -52,57 +47,8 @@
                         Discover Hotel With Us
                     </span>
                 </div>
-                <div class="tileContainer">
-                    <div class="tileComponent1">
-                       <img src="breakfast.png" >
-                    </div>
-                    <div class="tileComponent2">
-                        <div class="componentHeading">
-                            Business
-                        </div>
-                        <div class="componentSubHeading">
-                            Start Your Business Trip with Us
-                        </div>
-                    </div>
-                </div>
-                <div class="tileContainer">
-                    <div class="tileComponent1">
-                        <img src="dinner.png" >
-                    </div>
-                    <div class="tileComponent2">
-                        <div class="componentHeading">
-                            Travel
-                        </div>
-                        <div class="componentSubHeading">
-                            Start Your Travel Trip with Us
-                        </div>
-                    </div>
-                </div>
-                <div class="tileContainer">
-                    <div class="tileComponent1">
-                        <img src="drinks.png" >
-                    </div>
-                    <div class="tileComponent2">
-                        <div class="componentHeading">
-                            Luxury
-                        </div>
-                        <div class="componentSubHeading">
-                            Start Your Luxury Trip with Us
-                        </div>
-                    </div>
-                </div>
-                <div class="tileContainer">
-                    <div class="tileComponent1">
-                        <img src="nightlife.png" >
-                    </div>
-                    <div class="tileComponent2">
-                        <div class="componentHeading">
-                            Holiday
-                        </div>
-                        <div class="componentSubHeading">
-                            Start Your Holiday Trip with Us
-                        </div>
-                    </div>
+                <div id="content">
+
                 </div>
             </div>
         </div>
@@ -110,5 +56,11 @@
         <div>
             <p id="copywrite">&copy; Developer Funnel</p>
         </div>
+
+        
+        <script>
+            window.onload=getCity()
+            window.onload=getTrip()
+        </script>
     </body>
 </html>
