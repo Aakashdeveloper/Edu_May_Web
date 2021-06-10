@@ -51,15 +51,15 @@ array
 JSON
 loop
 object
+Dynamic Html 
+Json-server
+promise
+Geolocation
+async await
 /////////////
 github 
 hoisting
 clouser
-promise
-async await
-Geolocation
-Dynamic Html 
-
 Jquery
 > Animation
 > ajax
@@ -77,3 +77,19 @@ col-sm- <576px
 col-md- <768
 col-lg- < 992
 col-xl- <1200
+
+
+
+//////////////
+Dummy Api 
+/////////
+
+>>>One time >>>>>
+> install nodeJs (https://nodejs.org/en/)
+> open cmd as admin
+> npm i -g json-server
+
+>>>Next all time >>>>>>
+> open terminal
+> new terminal
+> json-server --watch db.json

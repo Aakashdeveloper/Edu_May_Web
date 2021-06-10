@@ -15,7 +15,7 @@
                     <h3>Edureka</h3>
                 </div>
                 <div class="panel-body">
-                    <form>
+                    <form method="POST" action="http://localhost:3000/employee">
                         <div class="form-group">
                             <label for="fname">FirstName</label>
                             <input placeholder="firstname" name="fname" id="fname"
@@ -52,7 +52,7 @@
                                 <option value="chandigarh">Chandigarh</option>
                             </select>
                         </div>
-                        <button onclick="validateForm()">Submit</button>
+                        <button onclick="validateForm()" type="submit">Submit</button>
 
                     </form>
                     
