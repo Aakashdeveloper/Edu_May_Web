@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            #heading, #content{
+                text-align: center;
+                background-color: sandybrown;
+            }
+            #content{
+                display: none;
+                background-color: powderblue;
+            }
+        </style>
+        <script>
+            $(document).ready(() => {
+                $('#heading').mouseover(() => {
+                    $('#content').slideToggle('slow')
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div id="heading">Panel Scroll Down</div>
+        <div id="content">FlipIt</div>
+    </body>
+</html>

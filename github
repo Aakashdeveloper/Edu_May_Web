@@ -1,3 +1,5 @@
+//gitbash
+
 >>>>>Form new folder first time<<<<<<<<<<<<
 
 git init
@@ -5,3 +7,28 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/Aakashdeveloper/testrepo.git
 git push -u origin master
+
+
+
+git clone https://github.com/Aakashdeveloper/testrepo
+
+
+> git status
+
+git add .
+git commit -m "first commit"
+git push
+
+git pull 
+
+// see all  branch 
+git branch
+
+//create branch
+git checkout -b feature/homepage
+
+//change branch
+> git checkout feature/homepage
+
+//
+git log --stat

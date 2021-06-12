@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            #main{
+                height: 150px;
+                width: 150px;
+                background-color: rebeccapurple;
+                position: absolute;
+                color:white
+            }
+        </style>
+        <script>
+            $(document).ready(() => {
+                $('button').click(() => {
+                    var div = $('div')
+                    div.animate({width:'200px',height:'200',borderRadius:'50%'},3000)
+                    div.animate({marginLeft:'200px',marginTop:'500px'},3000)
+                    div.animate({marginLeft:'400px',marginTop:'0px'},3000)
+                    div.animate({marginLeft:'600px',marginTop:'500px'},3000)
+                    div.animate({marginLeft:'800px',marginTop:'0px'},3000)
+                    div.animate({marginLeft:'0px',marginTop:'0px'},3000)
+                })
+
+                $('#stop').click(() => {
+                    $('div').finish()
+                })
+                
+            })
+        </script>
+    </head>
+    <body>
+        <button>Click Me</button>
+        <button id="stop">Stop</button>
+        <div id="main">
+            
+        </div>
+    </body>
+</html>
